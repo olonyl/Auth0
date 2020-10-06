@@ -4,14 +4,14 @@
     "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure\\Auth0API.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj": {
+    "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj",
+        "projectUniqueName": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj",
         "projectName": "Auth0API.Domain",
-        "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj",
+        "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\obj\\",
+        "outputPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -91,8 +91,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj": {
-                "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj"
+              "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj": {
+                "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj"
               }
             }
           }

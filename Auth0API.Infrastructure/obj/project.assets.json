@@ -5634,8 +5634,8 @@
     },
     "Auth0API.Domain/1.0.0": {
       "type": "project",
-      "path": "../Auth0API.Domain/Auth0API.Domain.csproj",
-      "msbuildProject": "../Auth0API.Domain/Auth0API.Domain.csproj"
+      "path": "../Auth0API.Domain.Lib/Auth0API.Domain.csproj",
+      "msbuildProject": "../Auth0API.Domain.Lib/Auth0API.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5677,8 +5677,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj": {
-              "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj"
+            "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj": {
+              "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj"
             }
           }
         }

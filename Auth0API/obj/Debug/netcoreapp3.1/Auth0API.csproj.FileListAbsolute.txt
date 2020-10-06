@@ -22,8 +22,6 @@ C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\obj\Debug\netcoreap
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\obj\Debug\netcoreapp3.1\Auth0API.AssemblyInfoInputs.cache
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\obj\Debug\netcoreapp3.1\Auth0API.AssemblyInfo.cs
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\obj\Debug\netcoreapp3.1\Auth0API.RazorTargetAssemblyInfo.cache
-C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Auth0API.Domain.exe
-C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Auth0API.Infrastructure.exe
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -136,7 +134,6 @@ C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreap
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Auth0API.Application.exe
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Auth0API.Application.dll
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Auth0API.Application.pdb
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

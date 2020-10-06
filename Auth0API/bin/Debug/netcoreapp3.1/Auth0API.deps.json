@@ -24,8 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Auth0API/1.0.0": {
         "dependencies": {
-          "Auth0API.Application": "1.0.0",
-          "Auth0API.Infrastructure": "1.0.0",
+          "Auth0APi.Application": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.8",
@@ -2230,16 +2229,16 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Auth0API.Application/1.0.0": {
+      "Auth0APi.Application/1.0.0": {
         "dependencies": {
           "Auth0API.Domain": "1.0.0",
           "Auth0API.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "Auth0API.Application.dll": {}
+          "Auth0APi.Application.dll": {}
         },
         "compile": {
-          "Auth0API.Application.dll": {}
+          "Auth0APi.Application.dll": {}
         }
       },
       "Auth0API.Domain/1.0.0": {
@@ -2258,7 +2257,6 @@
           "Auth0API.Domain": "1.0.0",
           "AutoMapper": "8.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.8",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8"
         },
         "runtime": {
@@ -5017,7 +5015,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Auth0API.Application/1.0.0": {
+    "Auth0APi.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Auth0API.Domain.Lib\Auth0API.Domain.csproj" />
+    <ProjectReference Include="..\Auth0API.Infrastructure.Lib\Auth0API.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

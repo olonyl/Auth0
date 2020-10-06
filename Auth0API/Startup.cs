@@ -13,6 +13,7 @@ using Auth0API.Infrastructure.Adapter;
 using Auth0API.Infrastructure.Initializer;
 using Auth0API.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -56,9 +57,10 @@ namespace Auth0API
 
             services.AddAuthorization(options =>
             {
-                options.AddPolicy("read:messages", policy => policy.Requirements.Add(new HasScopeRequirement("read:messages", domain)));
+                options.AddPolicy("read:employees", policy => policy.Requirements.Add(new HasScopeRequirement("read:employees", domain)));
             });
 
+            services.AddSingleton<IAuthorizationHandler, HasScopeHandler>();
             services.AddControllers();
         }
 

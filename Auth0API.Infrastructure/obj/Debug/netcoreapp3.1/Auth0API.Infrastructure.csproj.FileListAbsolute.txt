@@ -21,7 +21,6 @@ C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API.Infrastructure\bin\
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API.Infrastructure\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API.Infrastructure\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API.Infrastructure\bin\Debug\netcoreapp3.1\Auth0API.Domain.dll
-C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API.Infrastructure\bin\Debug\netcoreapp3.1\Auth0API.Domain.exe
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API.Infrastructure\bin\Debug\netcoreapp3.1\Auth0API.Infrastructure.deps.json
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API.Infrastructure\bin\Debug\netcoreapp3.1\Auth0API.Infrastructure.runtimeconfig.json
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API.Infrastructure\bin\Debug\netcoreapp3.1\Auth0API.Infrastructure.runtimeconfig.dev.json

@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Auth0API.Domain\Auth0API.Domain.csproj" />
+    <ProjectReference Include="..\Auth0API.Domain.Lib\Auth0API.Domain.csproj" />
   </ItemGroup>
 
 </Project>

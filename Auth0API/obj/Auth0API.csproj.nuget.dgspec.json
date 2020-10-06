@@ -4,14 +4,14 @@
     "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API\\Auth0API.csproj": {}
   },
   "projects": {
-    "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Application\\Auth0API.Application.csproj": {
+    "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0APi.Application.Lib\\Auth0APi.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Application\\Auth0API.Application.csproj",
-        "projectName": "Auth0API.Application",
-        "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Application\\Auth0API.Application.csproj",
+        "projectUniqueName": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0APi.Application.Lib\\Auth0APi.Application.csproj",
+        "projectName": "Auth0APi.Application",
+        "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0APi.Application.Lib\\Auth0APi.Application.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Application\\obj\\",
+        "outputPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0APi.Application.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj": {
-                "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj"
+              "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj": {
+                "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj"
               },
-              "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure\\Auth0API.Infrastructure.csproj": {
-                "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure\\Auth0API.Infrastructure.csproj"
+              "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure.Lib\\Auth0API.Infrastructure.csproj": {
+                "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure.Lib\\Auth0API.Infrastructure.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj": {
+    "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj",
+        "projectUniqueName": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj",
         "projectName": "Auth0API.Domain",
-        "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj",
+        "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\obj\\",
+        "outputPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -127,14 +127,14 @@
         }
       }
     },
-    "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure\\Auth0API.Infrastructure.csproj": {
+    "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure.Lib\\Auth0API.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure\\Auth0API.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure.Lib\\Auth0API.Infrastructure.csproj",
         "projectName": "Auth0API.Infrastructure",
-        "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure\\Auth0API.Infrastructure.csproj",
+        "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure.Lib\\Auth0API.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure\\obj\\",
+        "outputPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -153,8 +153,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj": {
-                "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain\\Auth0API.Domain.csproj"
+              "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj": {
+                "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Domain.Lib\\Auth0API.Domain.csproj"
               }
             }
           }
@@ -173,10 +173,6 @@
               "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[3.1.8, )"
             },
@@ -230,11 +226,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Application\\Auth0API.Application.csproj": {
-                "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Application\\Auth0API.Application.csproj"
-              },
-              "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure\\Auth0API.Infrastructure.csproj": {
-                "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure\\Auth0API.Infrastructure.csproj"
+              "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0APi.Application.Lib\\Auth0APi.Application.csproj": {
+                "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0APi.Application.Lib\\Auth0APi.Application.csproj"
               }
             }
           }

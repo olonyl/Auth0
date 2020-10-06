@@ -8,32 +8,27 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Auth0API.Controllers
 {
-    [Route("api/[controller]")]
-    public class HomeController : ControllerBase
+    public class HomeController : BaseController
     {
-        private readonly IEmployeeService _employeeService;
-        public HomeController(IEmployeeService employeeService)
-        {
-            this._employeeService = employeeService;
-        }
-        public IActionResult Index()
+        
+        [HttpGet]
+        public IActionResult Get()
         {
             return Ok(new
             {
                 Message = "Hello from a public endpoint! You don't need to be authenticated to see this."
             });
         }
-        [HttpGet("GetEmployees")]
+        [HttpGet("private")]
         [Authorize]
-        public IActionResult Employees()
+        public IActionResult Private()
         {
-            return Ok(this._employeeService.GetEmployees());
+            return Ok(new
+            {
+                Message = "Hello from a private endpoint! You don't need to be authenticated to see this."
+            });
         }
-        [HttpGet("GetEmployeesByCity/{city}")]
-        [Authorize]
-        public IActionResult EmployeesByCity(string city)
-        {
-            return Ok(this._employeeService.GetEmployeesByCity(city));
-        } 
+       
+            
     }
 }

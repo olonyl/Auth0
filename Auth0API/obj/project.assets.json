@@ -2603,7 +2603,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Auth0API.Application/1.0.0": {
+      "Auth0APi.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2611,10 +2611,10 @@
           "Auth0API.Infrastructure": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Auth0API.Application.dll": {}
+          "bin/placeholder/Auth0APi.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Auth0API.Application.dll": {}
+          "bin/placeholder/Auth0APi.Application.dll": {}
         }
       },
       "Auth0API.Domain/1.0.0": {
@@ -2637,7 +2637,6 @@
           "Auth0API.Domain": "1.0.0",
           "AutoMapper": "8.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.8",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8"
         },
         "compile": {
@@ -8482,26 +8481,25 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Auth0API.Application/1.0.0": {
+    "Auth0APi.Application/1.0.0": {
       "type": "project",
-      "path": "../Auth0API.Application/Auth0API.Application.csproj",
-      "msbuildProject": "../Auth0API.Application/Auth0API.Application.csproj"
+      "path": "../Auth0APi.Application.Lib/Auth0APi.Application.csproj",
+      "msbuildProject": "../Auth0APi.Application.Lib/Auth0APi.Application.csproj"
     },
     "Auth0API.Domain/1.0.0": {
       "type": "project",
-      "path": "../Auth0API.Domain/Auth0API.Domain.csproj",
-      "msbuildProject": "../Auth0API.Domain/Auth0API.Domain.csproj"
+      "path": "../Auth0API.Domain.Lib/Auth0API.Domain.csproj",
+      "msbuildProject": "../Auth0API.Domain.Lib/Auth0API.Domain.csproj"
     },
     "Auth0API.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Auth0API.Infrastructure/Auth0API.Infrastructure.csproj",
-      "msbuildProject": "../Auth0API.Infrastructure/Auth0API.Infrastructure.csproj"
+      "path": "../Auth0API.Infrastructure.Lib/Auth0API.Infrastructure.csproj",
+      "msbuildProject": "../Auth0API.Infrastructure.Lib/Auth0API.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Auth0API.Application >= 1.0.0",
-      "Auth0API.Infrastructure >= 1.0.0",
+      "Auth0APi.Application >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.8",
@@ -8538,11 +8536,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Application\\Auth0API.Application.csproj": {
-              "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Application\\Auth0API.Application.csproj"
-            },
-            "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure\\Auth0API.Infrastructure.csproj": {
-              "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API.Infrastructure\\Auth0API.Infrastructure.csproj"
+            "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0APi.Application.Lib\\Auth0APi.Application.csproj": {
+              "projectPath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0APi.Application.Lib\\Auth0APi.Application.csproj"
             }
           }
         }
