@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Auth0API.Domain.Entities
 {
-    public class Articles : Entity
+    public class Article : Entity
     {
         [Key]
         public int Id { get; set; }

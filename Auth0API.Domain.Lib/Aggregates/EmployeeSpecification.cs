@@ -7,13 +7,13 @@ namespace Auth0API.Domain.Aggregates
 {
     public static class EmployeeSpecifications
     {
-        public static Specification<Employees> ByPersonCity(string city)
+        public static Specification<Employee> ByPersonCity(string city)
         {
-            return new AdHocSpecification<Employees>(p=> p.City == city);
+            return new AdHocSpecification<Employee>(p=> p.City == city);
         }
-        public static Specification<Employees> All()
+        public static Specification<Employee> All()
         {
-            return new AdHocSpecification<Employees>(p => true);
+            return new AdHocSpecification<Employee>(p => true);
         }
 
     }

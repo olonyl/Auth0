@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Auth0API.Application.DTO;
 using Auth0API.Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -49,6 +50,12 @@ namespace Auth0API.Controllers
             {
                 return BadRequest(ex.Message);
             }
+        }
+
+        [HttpPost]
+        public void Post([FromBody]EmployeeDTO employeeDTO)
+        {
+           _employeeService.AddNewEmployee(employeeDTO);
         }
     }
 }

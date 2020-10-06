@@ -11,8 +11,8 @@ namespace Auth0API.Infrastructure
 {
     public class ApplicationContext : DbContext, IQueryableUnitOfWork
     {
-        public DbSet<Employees> Employee { get; set; }
-        public DbSet<Articles> Article { get; set; }
+        public DbSet<Employee> Employee { get; set; }
+        public DbSet<Article> Article { get; set; }
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
            : base(options)
         {

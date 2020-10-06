@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Auth0API.Domain.Repositories
 {
-    public interface IArticleRepository : IRepository<Articles>
+    public interface IArticleRepository : IRepository<Article>
     {
     }
 }

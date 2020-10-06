@@ -5,11 +5,13 @@ using System.Text;
 
 namespace Auth0API.Domain.Aggregates
 {
-    class ArticleSpecification
+    public class EmployeeFactory
     {
-        public static Specification<Article> All()
+        public static Employee CreateEmployee()
         {
-            return new AdHocSpecification<Article>(p => true);
+            var employee = new Employee();
+
+            return employee;
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Auth0API.Infrastructure.Repositories
 {
-    public class ArticleRepository : Repository<Articles>, IArticleRepository
+    public class ArticleRepository : Repository<Article>, IArticleRepository
     {
         ApplicationContext db;
         public ArticleRepository(ApplicationContext db) : base(db)

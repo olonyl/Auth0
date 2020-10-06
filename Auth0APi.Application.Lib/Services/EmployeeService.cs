@@ -31,5 +31,20 @@ namespace Auth0API.Application.Services
             return retVal.ProjectedAsCollection<EmployeeDTO>();
 
         }
+
+        public EmployeeDTO AddNewEmployee(EmployeeDTO employeeDTO)
+        {
+            //
+            // Do input validation and other stuff
+            //
+
+            var employee = EmployeeFactory.CreateEmployee();
+
+            //
+            // Do stuff
+            //
+
+            return employee.ProjectedAs<EmployeeDTO>();
+        }
     }
 }

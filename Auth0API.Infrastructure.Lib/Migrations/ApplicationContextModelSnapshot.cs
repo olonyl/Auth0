@@ -43,7 +43,7 @@ namespace Auth0API.Infrastructure.Migrations
                     b.ToTable("Article");
                 });
 
-            modelBuilder.Entity("Auth0API.Domain.Entities.Employees", b =>
+            modelBuilder.Entity("Auth0API.Domain.Entities.Employee", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

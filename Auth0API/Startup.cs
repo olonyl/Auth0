@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -83,7 +84,6 @@ namespace Auth0API
             var typeAdapterFactory = app.ApplicationServices.GetService<ITypeAdapterFactory>();
             if (typeAdapterFactory == null) throw new Exception("No se ha agregado el servicio de FabricaAdaptadorTipo");
             TypeAdapterFactory.SetCurrent(typeAdapterFactory);
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

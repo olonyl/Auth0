@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Auth0API.Infrastructure
 {
-   public class EmployeeRepository :  Repository<Employees>, IEmployeeRepository
+   public class EmployeeRepository :  Repository<Employee>, IEmployeeRepository
     {
         public EmployeeRepository(ApplicationContext unitOfWork) : base(unitOfWork) { }
     }

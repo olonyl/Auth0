@@ -28,7 +28,7 @@ namespace Auth0API.Infrastructure.Initializer
             catch (Exception ex) { }
             if (_db.Employee.Count() == 0)
             {
-                _db.Employee.Add(new Employees
+                _db.Employee.Add(new Employee
                 {
                     Address ="My Address",
                     City="Managua",
@@ -37,7 +37,7 @@ namespace Auth0API.Infrastructure.Initializer
                     LastName="Landeros",
                     PhoneNumber ="89804255"
                 });
-                _db.Employee.Add(new Employees
+                _db.Employee.Add(new Employee
                 {
                     Address = "My Address 2",
                     City = "Managua",
@@ -46,7 +46,7 @@ namespace Auth0API.Infrastructure.Initializer
                     LastName = "Rocha",
                     PhoneNumber = "777865555"
                 });
-                _db.Employee.Add(new Employees
+                _db.Employee.Add(new Employee
                 {
                     Address = "My Address 3",
                     City = "Masaya",
@@ -59,7 +59,7 @@ namespace Auth0API.Infrastructure.Initializer
             }
             if (_db.Article.Count() == 0)
             {
-                _db.Article.Add(new Articles
+                _db.Article.Add(new Article
                 {
                    Name= "Building",
                    CreationDate = DateTime.Now.ToString(),
@@ -67,7 +67,7 @@ namespace Auth0API.Infrastructure.Initializer
                    UrlImage= "http://lorempixel.com/640/480/technics"
 
                 });
-                _db.Article.Add(new Articles
+                _db.Article.Add(new Article
                 {
                     Name = "Sport",
                     CreationDate = DateTime.Now.ToString(),

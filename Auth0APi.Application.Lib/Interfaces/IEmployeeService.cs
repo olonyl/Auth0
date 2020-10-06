@@ -10,5 +10,7 @@ namespace Auth0API.Application.Interfaces
     {
         List<EmployeeDTO> GetEmployees();
         List<EmployeeDTO> GetEmployeesByCity(string city);
+
+        EmployeeDTO AddNewEmployee(EmployeeDTO employeeDTO);
     }
 }
