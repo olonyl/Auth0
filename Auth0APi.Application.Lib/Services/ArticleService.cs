@@ -13,14 +13,14 @@ namespace Auth0API.Application.Services
 {
     public class ArticleService : IArticleService
     {
-        readonly IUnitOfWork _unitOfWork;
-        public ArticleService(IUnitOfWork unitOfWork)
+        readonly IArticleRepository _articleRepository;
+        public ArticleService(IArticleRepository articleRepository)
         {
-            this._unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
+            this._articleRepository = articleRepository ?? throw new ArgumentNullException(nameof(articleRepository));
         }
         public List<ArticleDTO> GetArticles()
         {
-            var retVal = _unitOfWork.Article.GetAll();
+            var retVal = _articleRepository.GetAll();
             return retVal.ProjectedAsCollection<ArticleDTO>();
         }
     }

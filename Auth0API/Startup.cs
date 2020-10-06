@@ -41,7 +41,8 @@ namespace Auth0API
             services.AddDbContext<ApplicationContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IArticleRepository, ArticleRepository>();
+            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
             services.AddScoped<IArticleService, ArticleService>();
             services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddSingleton<ITypeAdapterFactory, AutomapperTypeAdapterFactory>();

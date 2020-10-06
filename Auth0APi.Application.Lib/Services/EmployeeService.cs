@@ -14,20 +14,20 @@ namespace Auth0API.Application.Services
 {
     public class EmployeeService : IEmployeeService
     {
-        readonly IUnitOfWork _unitOfWork;
-        public EmployeeService(IUnitOfWork unitOfWork)
+        readonly IEmployeeRepository _employeeRepository;
+        public EmployeeService(IEmployeeRepository employeeRepository)
         {
-            this._unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
+            this._employeeRepository = employeeRepository ?? throw new ArgumentNullException(nameof(employeeRepository));
         }
         public List<EmployeeDTO>  GetEmployeesByCity(string city)
         {
-            var retVal = _unitOfWork.Employee.GetFiltered(EmployeeSpecifications.ByPersonCity(city));
+            var retVal = _employeeRepository.GetFiltered(EmployeeSpecifications.ByPersonCity(city));
             return retVal.ProjectedAsCollection<EmployeeDTO>();
 
         }
         public List<EmployeeDTO> GetEmployees()
         {
-            var retVal = _unitOfWork.Employee.GetAll();
+            var retVal = _employeeRepository.GetAll();
             return retVal.ProjectedAsCollection<EmployeeDTO>();
 
         }

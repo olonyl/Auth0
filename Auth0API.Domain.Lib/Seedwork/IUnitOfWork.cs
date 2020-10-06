@@ -8,9 +8,6 @@ namespace Auth0API.Domain.Seedwork
 {
     public interface IUnitOfWork : IDisposable
     {
-        public IArticleRepository Article { get;  }
-
-        public IEmployeeRepository Employee { get;  }
         /// <summary>
         /// Commit all changes made in a container.
         /// </summary>

@@ -13,11 +13,6 @@ namespace Auth0API.Infrastructure
     {
         public DbSet<Employees> Employee { get; set; }
         public DbSet<Articles> Article { get; set; }
-
-        IArticleRepository IUnitOfWork.Article => throw new NotImplementedException();
-
-        IEmployeeRepository IUnitOfWork.Employee => throw new NotImplementedException();
-
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
            : base(options)
         {
