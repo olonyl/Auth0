@@ -14,7 +14,7 @@ namespace Auth0API.Infrastructure.Initializer
         private readonly ApplicationContext _db;
         public Initializer(ApplicationContext db)
         {
-
+            _db = db;
         }
         public void Initialize()
         {
@@ -30,8 +30,32 @@ namespace Auth0API.Infrastructure.Initializer
             {
                 _db.Employee.Add(new Employees
                 {
-
+                    Address ="My Address",
+                    City="Managua",
+                    Country="Nicaragua",
+                    FirstName="Olonyl",
+                    LastName="Landeros",
+                    PhoneNumber ="89804255"
                 });
+                _db.Employee.Add(new Employees
+                {
+                    Address = "My Address 2",
+                    City = "Managua",
+                    Country = "Nicaragua",
+                    FirstName = "Jose",
+                    LastName = "Rocha",
+                    PhoneNumber = "777865555"
+                });
+                _db.Employee.Add(new Employees
+                {
+                    Address = "My Address 3",
+                    City = "Masaya",
+                    Country = "Nicaragua",
+                    FirstName = "Pepe",
+                    LastName = "Ruiz",
+                    PhoneNumber = "876565454"
+                });
+                _db.SaveChanges();
             }
         }
     }

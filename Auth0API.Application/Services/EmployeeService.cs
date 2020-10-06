@@ -19,9 +19,15 @@ namespace Auth0API.Application.Services
         {
             this._unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
         }
-        public List<EmployeeDTO>  GetEmployees()
+        public List<EmployeeDTO>  GetEmployeesByCity(string city)
         {
-            var retVal = _unitOfWork.Employee.GetFiltered(EmployeeSpecifications.ByPersonCity("Managua"));
+            var retVal = _unitOfWork.Employee.GetFiltered(EmployeeSpecifications.ByPersonCity(city));
+            return retVal.ProjectedAsCollection<EmployeeDTO>();
+
+        }
+        public List<EmployeeDTO> GetEmployees()
+        {
+            var retVal = _unitOfWork.Employee.GetAll();
             return retVal.ProjectedAsCollection<EmployeeDTO>();
 
         }

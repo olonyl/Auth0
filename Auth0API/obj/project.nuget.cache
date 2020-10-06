@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dVA/FV8VweDcwoF5c+EaS/j9FVYsZ3SxN/tTwMwCeljZDrhT3ecubdpwK7gHej0cygeh0MrKOtQ27iq+CtaHXA==",
+  "dgSpecHash": "iS2EW2LmAIkp/Bu0W41Jg8ZMga/+cW7nzDT6OpmLFcGE9fAsm8JNwIuyOAcyTG41GS68cwrYpXOd6/gPT4NNSQ==",
   "success": true,
   "projectFilePath": "C:\\Lab\\Smart-Apartment-Data\\Auth0 - Olonyl\\Auth0API\\Auth0API\\Auth0API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developer\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
+    "C:\\Users\\Developer\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Developer\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

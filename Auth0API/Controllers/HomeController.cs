@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Auth0API.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Auth0API.Controllers
@@ -23,9 +24,16 @@ namespace Auth0API.Controllers
             });
         }
         [HttpGet("GetEmployees")]
+        [Authorize]
         public IActionResult Employees()
         {
             return Ok(this._employeeService.GetEmployees());
+        }
+        [HttpGet("GetEmployeesByCity/{city}")]
+        [Authorize]
+        public IActionResult EmployeesByCity(string city)
+        {
+            return Ok(this._employeeService.GetEmployeesByCity(city));
         }
     }
 }

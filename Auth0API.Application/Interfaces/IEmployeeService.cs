@@ -9,5 +9,6 @@ namespace Auth0API.Application.Interfaces
     public interface IEmployeeService
     {
         List<EmployeeDTO> GetEmployees();
+        List<EmployeeDTO> GetEmployeesByCity(string city);
     }
 }
