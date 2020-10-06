@@ -25,6 +25,7 @@
       "Auth0API/1.0.0": {
         "dependencies": {
           "Auth0APi.Application": "1.0.0",
+          "Microsoft.AspNet.WebApi.Core": "5.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.8",
@@ -319,6 +320,31 @@
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.0.0": {
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.11001.0"
+          }
+        },
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.0.0": {
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.0.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.11001.0"
+          }
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.8": {
@@ -3894,6 +3920,20 @@
       "sha512": "sha512-px8ZMtIq84dxciB29V+ZYOtsRLZP4JlflDDMW13LyeRdwsnIInzlcSHSxpWmVD6U3bbOl2FeLlgomnVtm0jvXw==",
       "path": "automapper/8.0.0",
       "hashPath": "automapper.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebApi.Client/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OMTp9ot40TZgZxnFO+S0ac0EY5CtQs6KTHkMSHmNFDc+a0tWMCsSBuOG6HoH9+G95wNhEfZrZ20btAsHMlQe7w==",
+      "path": "microsoft.aspnet.webapi.client/5.0.0",
+      "hashPath": "microsoft.aspnet.webapi.client.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebApi.Core/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZOVLLtFpSM8nkJopUM9upbJEUkAUS60j6Sj1hDKewHaekWMUnnoMX/i3Ee+7KgxMGk13yxxQRHtSwcjh1JpJ4w==",
+      "path": "microsoft.aspnet.webapi.core/5.0.0",
+      "hashPath": "microsoft.aspnet.webapi.core.5.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.8": {
       "type": "package",

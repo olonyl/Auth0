@@ -17,7 +17,18 @@ namespace Auth0API.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(this._articleServicee.GetArticles());
+            try
+            {
+                var articles = this._articleServicee.GetArticles();
+                if (articles == null) return NotFound();
+
+                return Ok(articles);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+           
         }
     }
 }

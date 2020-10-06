@@ -21,13 +21,34 @@ namespace Auth0API.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(this._employeeService.GetEmployees());
+            try
+            {
+                var employee = this._employeeService.GetEmployees();
+                if (employee == null) return NotFound();
+
+                return Ok(employee);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
         }
 
         [HttpGet("{city}")]
         public IActionResult GetByCity(string city)
         {
-            return Ok(this._employeeService.GetEmployeesByCity(city));
+            try
+            {
+                var employee = this._employeeService.GetEmployeesByCity(city);
+                if (employee == null) return NotFound(employee);
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }
