@@ -3,6 +3,7 @@ using Auth0API.Application.Interfaces;
 using Auth0API.Application.SeedWork;
 using Auth0API.Domain;
 using Auth0API.Domain.Aggregates;
+using Auth0API.Domain.Entities;
 using Auth0API.Domain.Repositories;
 using Auth0API.Domain.Seedwork;
 using System;
@@ -40,11 +41,17 @@ namespace Auth0API.Application.Services
 
             var employee = EmployeeFactory.CreateEmployee();
 
-            //
-            // Do stuff
-            //
+            employee.FirstName = employeeDTO.FirstName;
+            employee.LastName = employeeDTO.LastName;
+            employee.Address = employeeDTO.Address;
+            employee.City = employeeDTO.City;
+            employee.Country = employeeDTO.Country;
+            employee.PhoneNumber = employeeDTO.PhoneNumber;
 
-            return employee.ProjectedAs<EmployeeDTO>();
+
+            _employeeRepository.Add( employee);
+
+           return employee.ProjectedAs<EmployeeDTO>();
         }
     }
 }

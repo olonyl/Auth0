@@ -58,7 +58,11 @@ namespace Auth0API.Infrastructure.Data
         {
 
             if (item != null)
+            {    
                 GetSet().Add(item); // add new item in this set
+                _unitOfWork.Commit();
+            }
+
             else
             {
                 //LoggerFactory.CreateLog()

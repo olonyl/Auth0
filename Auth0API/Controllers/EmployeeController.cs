@@ -36,7 +36,7 @@ namespace Auth0API.Controllers
 
         }
 
-        [HttpGet("{city}")]
+        [HttpGet("city/{city}")]
         public IActionResult GetByCity(string city)
         {
             try
@@ -44,7 +44,7 @@ namespace Auth0API.Controllers
                 var employee = this._employeeService.GetEmployeesByCity(city);
                 if (employee == null) return NotFound(employee);
 
-                return Ok();
+                return Ok(employee);
             }
             catch (Exception ex)
             {
