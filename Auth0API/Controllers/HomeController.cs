@@ -34,6 +34,6 @@ namespace Auth0API.Controllers
         public IActionResult EmployeesByCity(string city)
         {
             return Ok(this._employeeService.GetEmployeesByCity(city));
-        }
+        } 
     }
 }
