@@ -33,9 +33,11 @@ namespace Auth0API
 {
     public class Startup
     {
+        private SwaggerOptions swaggerOptions = new SwaggerOptions();
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            Configuration.GetSection(nameof(SwaggerOptions)).Bind(swaggerOptions);
         }
 
         public IConfiguration Configuration { get; }
@@ -69,15 +71,15 @@ namespace Auth0API
             services.AddSwaggerGen(x =>
             {
                 x.SwaggerDoc("v1", new OpenApiInfo { 
-                    Title = "Auth0 API with NetCore", 
-                    Version = "v1" ,
-                    Description="This API demostrate the use of DDD, Repository Pattern , Specification Patterns and all related to Enterprise Design",
+                    Title = swaggerOptions.Title,
+                    Version = swaggerOptions.Version,
+                    Description=swaggerOptions.Description,
                     Contact = new OpenApiContact
                     {
-                        Name = "Olonyl Landeros",
-                        Email = "jose87.landeros@gmail.com",
-                        Url = new Uri("https://www.linkedin.com/in/olonyl-horacio-rocha-landeros-3b3760a9"),
-                    },
+                        Name = swaggerOptions.ContactName,
+                        Email = swaggerOptions.ContactEmail,
+                        Url = new Uri(swaggerOptions.ContactProfile)
+                    }
                 });
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
@@ -96,9 +98,6 @@ namespace Auth0API
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            var swaggerOptions = new SwaggerOptions();
-            Configuration.GetSection(nameof(SwaggerOptions)).Bind(swaggerOptions);
 
             app.UseSwagger(c =>
             {
