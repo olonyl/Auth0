@@ -14,6 +14,10 @@ namespace Auth0API.Controllers
         {
             this._articleServicee = articleService;
         }
+        /// <summary>
+        /// This method is used to return a list of articles
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get()
         {

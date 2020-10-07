@@ -139,5 +139,13 @@ C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreap
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\obj\Debug\netcoreapp3.1\Auth0API.csproj.CoreCompileInputs.cache
+C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\obj\Debug\netcoreapp3.1\Auth0API.MvcApplicationPartsAssemblyInfo.cs
 C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\obj\Debug\netcoreapp3.1\Auth0API.MvcApplicationPartsAssemblyInfo.cache
+C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\bin\Debug\netcoreapp3.1\Auth0API.xml
+C:\Lab\Smart-Apartment-Data\Auth0 - Olonyl\Auth0API\Auth0API\obj\Debug\netcoreapp3.1\Auth0API.xml

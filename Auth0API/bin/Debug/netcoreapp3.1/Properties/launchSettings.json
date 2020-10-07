@@ -20,7 +20,7 @@
     "Auth0API": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/home",
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

@@ -18,7 +18,10 @@ namespace Auth0API.Controllers
         {
             this._employeeService = employeeService;
         }
-
+        /// <summary>
+        /// This method is used to return a list of employees, authorization is required
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get()
         {
@@ -35,7 +38,11 @@ namespace Auth0API.Controllers
             }
 
         }
-
+        /// <summary>
+        /// This method is used to return a list of employees filtered by city, authorization is required
+        /// </summary>
+        /// <param name="city">Name of the city to be used as filter</param>
+        /// <returns></returns>
         [HttpGet("city/{city}")]
         public IActionResult GetByCity(string city)
         {
@@ -51,7 +58,10 @@ namespace Auth0API.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+        /// <summary>
+        /// This method is used to insert a new employee, authorization is required
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public void Post([FromBody]EmployeeDTO employeeDTO)
         {
